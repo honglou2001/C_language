@@ -1,0 +1,29 @@
+﻿生成启动时间为 2014-12-10 16:39:36。
+     1>项目“F:\software\用C表达面向对象语言的机制——C#版\t2\t2\t2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\t2.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main3.c
+         main3.c
+     1>main3.c(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>main3.c(21): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 参见“getch”的声明
+     1>main3.c(12): warning C4101: “fp”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\software\用C表达面向对象语言的机制——C#版\t2\Release\t2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\t2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\software\用C表达面向对象语言的机制——C#版\t2\Release\t2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\software\用C表达面向对象语言的机制——C#版\t2\Release\t2.lib" /MACHINE:X86 Release\main1.obj
+         Release\main3.obj
+         正在生成代码
+         已完成代码的生成
+         t2.vcxproj -> F:\software\用C表达面向对象语言的机制——C#版\t2\Release\t2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\software\用C表达面向对象语言的机制——C#版\t2\Release\t2.exe;#1" /manifest Release\t2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\t2.unsuccessfulbuild”。
+         正在对“Release\t2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\software\用C表达面向对象语言的机制——C#版\t2\t2\t2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.76

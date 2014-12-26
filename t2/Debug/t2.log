@@ -1,0 +1,52 @@
+﻿生成启动时间为 2014-12-26 17:52:21。
+     1>项目“F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\t2\t2.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\t2.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\t2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main1.cpp main_hashtable.cpp
+         main_hashtable.cpp
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main_hashtable.cpp(139): warning C4305: “=”: 从“int”到“unsigned char”截断
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main_hashtable.cpp(139): warning C4309: “=”: 截断常量值
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main_hashtable.cpp(143): warning C4305: “=”: 从“int”到“unsigned char”截断
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main_hashtable.cpp(143): warning C4309: “=”: 截断常量值
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main_hashtable.cpp(163): warning C4307: “-”: 整型常量溢出
+         main1.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main3.c
+         main3.c
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(25): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(15): warning C4101: “exitch”: 未引用的局部变量
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(14): warning C4101: “show”: 未引用的局部变量
+     1>f:\software\用c表达面向对象语言的机制——c#版\t2\c_language\t2\main3.c(15): warning C4101: “ch”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\Debug\t2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\t2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\Debug\t2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\Debug\t2.lib" /MACHINE:X86 Debug\main1.obj
+         Debug\main3.obj
+         Debug\main_hashtable.obj
+         t2.vcxproj -> F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\Debug\t2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\Debug\t2.exe.manifest" /manifest Debug\t2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\t2.unsuccessfulbuild”。
+         正在对“Debug\t2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\software\用C表达面向对象语言的机制——C#版\t2\C_language\t2\t2.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.21
