@@ -80,6 +80,7 @@
     <ClCompile Include="main_hashtable.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="head.h" />
     <ClInclude Include="OverrideClass.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="strhtable.h" />

@@ -1,15 +1,30 @@
 #include "stdafx.h"
 #include "stdlib.h"
 #include "userinfo.h"
-
+#include "Head.h"
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include<conio.h>
+#include<windows.h> 
 
-
-int main1()
+void initgr() /* BGI初始化 */
 {
+    int gdriver, gmode;
+    gdriver=VGA;
+    gmode=VGAHI;
+    initgraph(&gdriver, &gmode, "G:\\C");
+	
+    bar3d(100, 100, 300, 250, 50, 1); /*画一长方体*/
+    getch();
+    closegraph();
+    //return 0;
+
+}
+
+int main()
+{
+
 	FILE *fp;
 	date tmps,show;
 	char ch,exitch;
@@ -26,6 +41,9 @@ int main1()
 
 	tmps.ps[6]='\0';
 	fp=fopen(datafile,"rb");
+
+	initgr();
+
 	if(fp==NULL)
 	{
 		printf("文件%s打不开\n",datafile);

@@ -64,7 +64,7 @@ void strcpy1(char *s, char *t)
 	}
 }
 
-int main()
+int main2()
 {
 	HashTable *htIn = NULL;
 	hash_init(&htIn);
